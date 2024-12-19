@@ -1,0 +1,102 @@
+header{
+color: rgb(151, 72, 224);
+background-color: aliceblue;
+display: flex;
+justify-content: space-between;
+}
+.section1,.section2{
+display: flex;
+gap: 16px;
+align-items: center;
+justify-items: center;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 16px;
+}
+.profile_img{
+    background-color: blueviolet;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.notify{
+    background-color: blanchedalmond;
+    border-radius: 15%;
+    padding: 14px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul li img{
+    height: 150px;
+    width:  150px;
+}
+main ul li {
+    font-size: 20px;
+    height: 200px;
+    width:  200px;
+    margin: 32px;
+}
+main h2{
+    margin-bottom: 52px;
+}
+
+.popUP{ background: white;
+    width: 580px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+display: flex;
+margin: 0;
+gap: 16px;
+padding: 16px;
+}
+.header2{
+    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.popUP .wow{
+    flex-shrink: 0;
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.close-button{
+    background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  padding: 0;
+
+}
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+

@@ -1,0 +1,55 @@
+
+body{
+    width: 100vh;
+ border-radius: 10px;
+}
+header{
+    background-color: blueviolet;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: beige;
+    border-radius: 10px;
+
+}
+
+main .sidebar{
+    width: 20%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+main .sidebar ul{
+    list-style-type: none;
+}
+main .section
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    flex-flow: row wrap;
+    border-radius: 10px;
+}
+
+.card{
+width: 300px;
+height: 300px;
+border-radius: 10px;
+
+background-color: blanchedalmond;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+
